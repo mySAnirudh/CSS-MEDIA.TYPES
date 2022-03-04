@@ -1,0 +1,14 @@
+
+
+   *** MEDIA TYPES ***
+
+   One of the most important features of style sheets is that they specify how a 
+document is to be presented on different media: on the screen, on paper, with a 
+speech synthesizer, with a braille device, etc.
+We have currently two ways to specify media dependencies for style sheets:
+ Specify the target medium from a style sheet with the @media or 
+@import at-rules.
+ Specify the target medium within the document language.
+The @media rule
+The @media rule specifies the target media types (separated by commas) of a 
+set of rules.
